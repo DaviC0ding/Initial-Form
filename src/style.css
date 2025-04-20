@@ -1,7 +1,38 @@
 * {
-    font-family: Vina-Sans, sans-serif;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
 }
 
 body {
-    background-color: #808080;
+    /* background-color: #909090; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    box-shadow: 1px .5px 10px black;
+    border-radius: 14px;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-fields {}
+
+input {
+    width: 100%;
+}
+
+.btn-submit-form {
+    width: 100%;
+
 }
