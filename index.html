@@ -4,47 +4,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário</title>
+  <title>Form</title>
   <link rel="stylesheet" href="src/style.css">
 
 </head>
 
 <body>
 
-  <div class="container">
 
-    <form action="#">
+  <div class="papai">
 
-      <h1 class="title">Sing up</h1>
-
-      <div class="group-fields">
-        <label  for="user-name">User name *</label>
-        <input id="user-name" type="text">
-
-        <label  for="email">Email *</label>
-        <input id="email" type="email">
-
-        <label  for="password">Password *</label>
-        <input id="password" type="password">
-
-        <label  for="confirm-password">Confirm your password *</label>
-        <input id="confirm-password" type="password">
-
-        
-      </div>
-      <button type="submit" class="btn-submit-form">Register</button>
-
-    </form>
-
+    <div class="container">
+  
+      <form action="#">
+  
+        <h1 class="title">Sing up</h1>
+  
+        <div class="group-fields">
+          <label for="user-name"><strong>User name</strong> *</label>
+          <input
+          required  
+          placeholder="Enter your name here...."
+          id="user-name" type="text">
+          
+  
+          <label for="email"><strong>Email</strong> *</label>
+          <input 
+          required 
+          placeholder="Enter your Email here...."
+          id="email" type="email">
+  
+          <label for="password"><strong>Password</strong> *</label>
+          <input 
+          required 
+          placeholder="Enter your password here...."
+          id="password" type="password">
+  
+          <label for="confirm-password"><strong>Confirm your password</strong> *</label>
+          <input
+          required
+          placeholder="Enter your password again"
+          id="confirm-password" type="password">
+  
+  
+        </div>
+        <button type="submit" class="btn-submit-form"><strong>Register</strong></button>
+  
+      </form>
+  
+    </div>
   </div>
-  <!-- 
-    div
-    form
-    h1 
-    label
-    input
-    button
-  -->
+
 </body>
 
 </html>

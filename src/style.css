@@ -1,38 +1,56 @@
 * {
     box-sizing: content-box;
     margin: 0;
-    padding: 0;
+    padding:0;
     font-family: cursive;
 }
 
-body {
-    /* background-color: #909090; */
-}
-
-.container {
+.papai {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
-    width: 600px;
+    height: 100vh;
+}
+
+.container {
+    height: 340px;
+    width: 500px;
     box-shadow: 1px .5px 10px black;
     border-radius: 14px;
+    
+
+    /* Centralizacao com display block */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
 
 }
 
 .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    background: linear-gradient(900deg, #00c3ff , #8bb0ff ) ;
+    padding: 20px ;
+    border-radius: 14px;
+    color: white;
+
 }
 
-.group-fields {}
+.group-fields {
+
+}
 
 input {
-    width: 100%;
+    width: 98%;
+    border-radius: 14px;
 }
 
 .btn-submit-form {
-    width: 100%;
+    background:linear-gradient(900deg, #8bb0ff, #00c3ff) ;
+    color: white;
+    padding: 6px;
+    width: 96%;
+    margin-top: 16px;
+    border-radius: 14px;
 
 }
